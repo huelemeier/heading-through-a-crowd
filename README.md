@@ -2,8 +2,9 @@
 You see a crowd of point-light walkers. Your task is to adapt the ground speed to the matching translation speed of the walkers. The following video shows two trials as example:
 
 
+https://user-images.githubusercontent.com/69513270/182681764-f0e001ce-b3b8-45fe-ab02-19caddfbf5be.mov
 
-https://user-images.githubusercontent.com/69513270/182676362-ec014d5c-89a7-4a13-a054-ac47bdcb493f.mov
+
 
 
 ## Technical requirements and set-up
