@@ -1,5 +1,5 @@
 # Estimate heading direction and traveled path through a crowd of point-light walkers
-You see a crowd of point-light walkers. Your task is to adapt the ground speed to the matching translation speed of the walkers. The following video shows two trials as example:
+You see a crowd of point-light walkers. Your task is to adapt the ground speed to the matching translation speed of the walkers. The following video shows two trials with neither motion parallax nor a visible ground as example:
 
 
 
@@ -50,8 +50,14 @@ The experimental world spans over 20 m scene depths. We placed a visible ground 
 ![gravel rgb](https://user-images.githubusercontent.com/69513270/182678034-d495fd3d-2364-400d-b5b4-5abbb912ed0a.png)
 
 ## Motion parallax and independent optic flow
-You can change the degree of depth information.
+You can change the degree of depth information available in the scene
+If motion parallax is selected, the walkers stay at different depths in the room. While some of the group's position ranged between 7 and 9 m, the other ones are twice as far away, i.e., 14 to 18 m in depth. We adjust the walkers' size and points according to their positioning in the environment. Due to the positioning of the walkers in space, the scene is designed to induce motion parallax cues (Gibson, 1950). 
 
+You can also add a grey gravel ground to the scene. The ground provides independent optic flow, and thus, independent self-motion information. If no ground is visible, the points of the walkers combine biological motion and simulated self-motion. 
 Here are some example stimuli with increasingly more depth and self-motion information:
 <img width="1205" alt="vary motion parallax and ground" src="https://user-images.githubusercontent.com/69513270/183370963-add6a67d-4f1d-4cab-8523-9b205dbdee5b.png">
 
+
+## Procedure
+Observers encounter a crowd of point-light walkers oriented collectively to the left or right. The movements change from trial to trial. Whether the walkers move their arms and legs and whether they translated varies throughout the experiment. Observers' self-motion simulation approaching the group os always be independent of the movement and direction of the group. This simulation endures about 2500 ms. 
+As soon as the last frame freezes, a path appears at the observers' feet. Their task is to report the perceived heading direction and adjust the pathway suiting best their perception of approaching the walkers. Horizontally moving the computer mouse changes the path position, and vertically moving modifies the curvature. Movements upwards stretches the pathway to a straight line, whereas movements downwards curves the trajectory. In each trial, the curve points randomly to the left or right. By pushing the right mouse button, respondents invert the curve direction. Subjects register their response by pressing the left mouse button. After their response, the subsequent trial started instantly, and the self-motion simulation starts without any time delay. 
