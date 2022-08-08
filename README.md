@@ -44,11 +44,6 @@ To decisively explore the influence of the components of biological motion on he
 In the static condition, the walkers resemble static figures. Here, the walkers kept their posture at a fixed position. The natural locomotion condition presents the walkers naturally moving through the world and swinging their limbs. This condition combines both elements of biological motion. The only translation condition displayed walkers sliding through the world without any limb motion. So the walkers resembles figure skaters moving in the direction they were facing. Conversely to the only translation condition, walkers in the only articulation condition moved their limbs without physical translation. This condition is imaginable as pedestrians on a treadmill. 
 Note these conditions are autamtically displayed in randomized order.
 
-## Experimental scene
-The experimental world spans over 20 m scene depths. We placed a visible ground at eye height (1.60 m). Its appearance is structured (gravel). The gravel ground provides independent optic flow from the simulated observer motion. The ground is programmed as blocking variable. In other words, you determine the ground appearance (black vs gravel) for the whole stimulus presentation. The next time you run the script, you can change the ground. 
-
-![gravel rgb](https://user-images.githubusercontent.com/69513270/182678034-d495fd3d-2364-400d-b5b4-5abbb912ed0a.png)
-
 ## Motion parallax and independent optic flow
 You can change the degree of depth information available in the scene
 If motion parallax is selected, the walkers stay at different depths in the room. While some of the group's position ranged between 7 and 9 m, the other ones are twice as far away, i.e., 14 to 18 m in depth. We adjust the walkers' size and points according to their positioning in the environment. Due to the positioning of the walkers in space, the scene is designed to induce motion parallax cues (Gibson, 1950). 
@@ -57,6 +52,10 @@ You can also add a grey gravel ground to the scene. The ground provides independ
 Here are some example stimuli with increasingly more depth and self-motion information:
 <img width="1205" alt="vary motion parallax and ground" src="https://user-images.githubusercontent.com/69513270/183370963-add6a67d-4f1d-4cab-8523-9b205dbdee5b.png">
 
+## Experimental scene
+The experimental world spans over 20 m scene depths. We placed a visible ground at eye height (1.60 m). Its appearance is structured (gravel). The gravel ground provides independent optic flow from the simulated observer motion. The ground is programmed as blocking variable. In other words, you determine the ground appearance (black vs gravel) for the whole stimulus presentation. The next time you run the script, you can change the ground. 
+
+![gravel rgb](https://user-images.githubusercontent.com/69513270/182678034-d495fd3d-2364-400d-b5b4-5abbb912ed0a.png)
 
 ## Procedure
 Observers encounter a crowd of point-light walkers oriented collectively to the left or right. The movements change from trial to trial. Whether the walkers move their arms and legs and whether they translated varies throughout the experiment. Observers' self-motion simulation approaching the group os always be independent of the movement and direction of the group. This simulation endures about 2500 ms. 
