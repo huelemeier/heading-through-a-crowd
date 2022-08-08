@@ -28,7 +28,7 @@ Open the script in Matlab and click on 'run'. Matlab automatically requires your
 You will see the stimulus presentation. After each presentation, you are required to estimate your heading direction by moving the mouse along the horizontal (heading direction) and vertical (curvature of your traveled path) axis. Press the right mouse buttom to invert the curvature direction. Confirm your answer by pressing the left mouse buttom. Subsequently, the next trial starts. The script finishes when all trials are done.
 
 You want to see the true heading direction? Just change show_true_heading (line 17) in the script from false to true: 
-```
+```matlab
 show_true_heading = true;
 ```
 
