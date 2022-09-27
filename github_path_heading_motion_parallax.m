@@ -326,6 +326,7 @@ for trial = 1:length(trials)
 %             return
 %         end
         
+        SetMouse(0,0);   %hide mouse 
 
         Screen('BeginOpenGL',win);
         glClear(GL.DEPTH_BUFFER_BIT)
