@@ -63,3 +63,7 @@ Observers encounter a crowd of point-light walkers oriented collectively to the 
 As soon as the last frame freezes, a path appears at the observers' feet. Their task is to report the perceived heading direction and adjust the pathway suiting best their perception of approaching the walkers. Horizontally moving the computer mouse changes the path position, and vertically moving modifies the curvature. Movements upwards stretches the pathway to a straight line, whereas movements downwards curves the trajectory. In each trial, the curve points randomly to the left or right. By pushing the right mouse button, respondents invert the curve direction. Subjects register their response by pressing the left mouse button. After their response, the subsequent trial started instantly, and the self-motion simulation starts without any time delay. 
 
 
+## Recreate skteched trajectory
+You can recreate your participant's (average) response per condition. The matlab skript loads in preprocessed data, redraws the stimulus scene, indicates true heading direction and plots the sketched trajectory. Basic information about the id and the walker facing can be added. The script automatically saves each image. Note this process can take some time. 
+Here is an example of how the images could look like:
+![2_2_-90_trajectory_plot](https://user-images.githubusercontent.com/69513270/196374615-c023d0fc-a41b-4701-a6c9-e7f891252e06.jpg)
