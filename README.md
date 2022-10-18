@@ -20,6 +20,7 @@ Download all the files and add them to your Matlab folder. Within your Matlab fo
 - sample_walker3: motion data for point_light walker with normal speed
 - gravel.rgb.tiff: ground type gravel
 - trajectory_heading_plots.m: Recreate what your participants sketched and save the images
+- github trajectory.R: Load in data and preprocess them to recreate participants' response, and to analyse the data
 
 ## Run the script
 Open the script in Matlab and click on 'run'. Matlab automatically requires your input in the command line, and subsequently asks questions. Enter the participant id, session number, and further information about the scene (grond, motion parallax, walkers at different depth) subsequently. When done, Psychtoolbox automatically opens a window and runs the script in that window. 
@@ -64,6 +65,6 @@ As soon as the last frame freezes, a path appears at the observers' feet. Their 
 
 
 ## Recreate skteched trajectory
-You can recreate your participant's (average) response per condition. The matlab skript loads in preprocessed data, redraws the stimulus scene, indicates true heading direction and plots the sketched trajectory. Basic information about the id and the walker facing can be added. The script automatically saves each image. Note this process can take some time. 
+You can recreate your participant's (average) response per condition. The matlab skript loads in preprocessed data from the R script, redraws the stimulus scene, indicates true heading direction and plots the sketched trajectory. Basic information about the id and the walker facing can be added. The script automatically saves each image. Note this process can take some time. 
 Here is an example of how the images could look like:
 ![2_2_-90_trajectory_plot](https://user-images.githubusercontent.com/69513270/196374615-c023d0fc-a41b-4701-a6c9-e7f891252e06.jpg)
