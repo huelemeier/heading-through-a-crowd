@@ -19,6 +19,7 @@ Download all the files and add them to your Matlab folder. Within your Matlab fo
 - getFrustum.m: this script generates frustum data. The main script uses this script to do some calculations. No need to adapt this script.
 - sample_walker3: motion data for point_light walker with normal speed
 - gravel.rgb.tiff: ground type gravel
+- trajectory_heading_plots.m: Recreate what your participants sketched and save the images
 
 ## Run the script
 Open the script in Matlab and click on 'run'. Matlab automatically requires your input in the command line, and subsequently asks questions. Enter the participant id, session number, and further information about the scene (grond, motion parallax, walkers at different depth) subsequently. When done, Psychtoolbox automatically opens a window and runs the script in that window. 
@@ -60,3 +61,5 @@ The experimental world spans over 20 m scene depths. We placed a visible ground 
 ## Procedure
 Observers encounter a crowd of point-light walkers oriented collectively to the left or right. The movements change from trial to trial. Whether the walkers move their arms and legs and whether they translated varies throughout the experiment. Observers' self-motion simulation approaching the group os always be independent of the movement and direction of the group. This simulation endures about 2500 ms. 
 As soon as the last frame freezes, a path appears at the observers' feet. Their task is to report the perceived heading direction and adjust the pathway suiting best their perception of approaching the walkers. Horizontally moving the computer mouse changes the path position, and vertically moving modifies the curvature. Movements upwards stretches the pathway to a straight line, whereas movements downwards curves the trajectory. In each trial, the curve points randomly to the left or right. By pushing the right mouse button, respondents invert the curve direction. Subjects register their response by pressing the left mouse button. After their response, the subsequent trial started instantly, and the self-motion simulation starts without any time delay. 
+
+
