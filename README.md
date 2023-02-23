@@ -50,12 +50,12 @@ Note these conditions are autamtically displayed in randomized order.
 You can change the degree of depth information available in the scene
 If motion parallax is selected, the walkers stay at different depths in the room. While some of the group's position ranged between 7 and 9 m, the other ones are twice as far away, i.e., 14 to 18 m in depth. We adjust the walkers' size and points according to their positioning in the environment. Due to the positioning of the walkers in space, the scene is designed to induce motion parallax cues (Gibson, 1950). 
 
-You can also add a grey gravel ground to the scene. The ground provides independent optic flow, and thus, independent self-motion information. If no ground is visible, the points of the walkers combine biological motion and simulated self-motion. 
+You can also add a grey gravel ground plane to the scene. The ground provides independent optic flow, and thus, independent self-motion information. If no ground is visible, the points of the walkers combine biological motion and simulated self-motion. 
 Here are some example stimuli with increasingly more depth and self-motion information:
 <img width="1205" alt="vary motion parallax and ground" src="https://user-images.githubusercontent.com/69513270/183370963-add6a67d-4f1d-4cab-8523-9b205dbdee5b.png">
 
 ## Experimental scene
-The experimental world spans over 20 m scene depths. We placed a visible ground at eye height (1.60 m). Its appearance is structured (gravel). The gravel ground provides independent optic flow from the simulated observer motion. The ground is programmed as blocking variable. In other words, you determine the ground appearance (black vs gravel) for the whole stimulus presentation. The next time you run the script, you can change the ground. 
+The experimental world spans over 20 m scene depths. We placed a visible ground at eye height (1.60 m). Its appearance is structured (gravel). The gravel ground planeprovides independent optic flow from the simulated observer motion. The ground is programmed as blocking variable. In other words, you determine the ground appearance (black vs gravel) for the whole stimulus presentation. The next time you run the script, you can change the ground. 
 
 ![gravel rgb](https://user-images.githubusercontent.com/69513270/182678034-d495fd3d-2364-400d-b5b4-5abbb912ed0a.png)
 
