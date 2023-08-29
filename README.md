@@ -68,3 +68,8 @@ As soon as the last frame freezes, a path appears at the observers' feet. Their 
 You can recreate your participant's (average) response per condition. The matlab skript loads in preprocessed data from the R script, redraws the stimulus scene, indicates true heading direction and plots the sketched trajectory. Basic information about the id and the walker facing can be added. The script automatically saves each image. Note this process can take some time. 
 Here is an example of how the images could look like:
 ![2_2_-90_trajectory_plot](https://user-images.githubusercontent.com/69513270/196374615-c023d0fc-a41b-4701-a6c9-e7f891252e06.jpg)
+
+
+## Recommended strategy of analysis
+We recommend using the linear mixed model framework for two reasons. First, the dependent variables in our study exhibited non-normal distributions across conditions, violating the assumption of ANOVA based on ordinary least squares regression models. Linear mixed models can accommodate non-normal data, providing more robust estimates. Secondly, the mixed-modeling framework offers great-er flexibility, accuracy, and power for repeated-measures data by accounting for both fixed and ran-dom effects, as well as accommodating varying variances, covariances, and distributions (Kristensen & Hansen, 2004; Jaeger, 2008).![image](https://github.com/huelemeier/heading-through-a-crowd/assets/69513270/8c59dd51-dcf8-4776-8c7d-cbadd1c2d760)
+
